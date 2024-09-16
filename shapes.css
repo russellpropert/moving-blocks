@@ -1,0 +1,377 @@
+:root {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100dvh;
+}
+
+.top-container {
+  position: relative;
+  width: 80%;
+  height: 90dvh;
+  outline: solid white 1px;
+}
+
+.shape {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+
+#shape1 {
+  animation-name: block-travel1;
+}
+
+@keyframes block-travel1 {
+  0% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  12.5% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  12.51% {
+    opacity: 0%;
+  }
+  24.99% {
+    opacity: 0%;
+
+  }
+  25% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  37.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  37.51% {
+    opacity: 0%;
+  }
+  49.99% {
+    opacity: 0%;
+
+  }
+  50% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  62.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  62.51% {
+    opacity: 0%;
+  }
+  74.99% {
+    opacity: 0%;
+
+  }
+  75% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  87.5% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  87.51% {
+    opacity: 0%;
+  }
+  99.99% {
+    opacity: 0%;
+
+  }
+  100% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+}
+
+
+
+#shape2 {
+  animation-name: block-travel2;
+
+}
+
+@keyframes block-travel2 {
+  0% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  12.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  12.51% {
+    opacity: 0%;
+  }
+  24.99% {
+    opacity: 0%;
+
+  }
+  25% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  37.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  37.51% {
+    opacity: 0%;
+  }
+  49.99% {
+    opacity: 0%;
+
+  }
+  50% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  62.5% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  62.51% {
+    opacity: 0%;
+  }
+  74.99% {
+    opacity: 0%;
+
+  }
+  75% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  87.5% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  87.51% {
+    opacity: 0%;
+  }
+  99.99% {
+    opacity: 0%;
+
+  }
+  100% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+}
+
+
+
+#shape3 {
+  animation-name: block-travel3;
+
+}
+
+@keyframes block-travel3 {
+  0% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  12.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  12.51% {
+    opacity: 0%;
+  }
+  24.99% {
+    opacity: 0%;
+
+  }
+  25% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  37.5% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  37.51% {
+    opacity: 0%;
+  }
+  49.99% {
+    opacity: 0%;
+
+  }
+  50% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  62.5% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  62.51% {
+    opacity: 0%;
+  }
+  74.99% {
+    opacity: 0%;
+
+  }
+  75% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  87.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  87.51% {
+    opacity: 0%;
+  }
+  99.99% {
+    opacity: 0%;
+
+  }
+  100% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+}
+
+
+
+#shape4 {
+  animation-name: block-travel4;
+
+}
+
+@keyframes block-travel4 {
+  0% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  12.5% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  12.51% {
+    opacity: 0%;
+  }
+  24.99% {
+    opacity: 0%;
+
+  }
+  25% {
+    opacity: 100%;
+    top: 10%;
+    left: 10%;
+  }
+  37.5% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  37.51% {
+    opacity: 0%;
+  }
+  49.99% {
+    opacity: 0%;
+
+  }
+  50% {
+    opacity: 100%;
+    top: 10%;
+    left: calc(90% - 10rem);
+  }
+  62.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  62.51% {
+    opacity: 0%;
+  }
+  74.99% {
+    opacity: 0%;
+
+  }
+  75% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: calc(90% - 10rem);
+  }
+  87.5% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+  87.51% {
+    opacity: 0%;
+  }
+  99.99% {
+    opacity: 0%;
+
+  }
+  100% {
+    opacity: 100%;
+    top: calc(90% - 10rem);
+    left: 10%;
+  }
+}
